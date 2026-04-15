@@ -1,0 +1,39 @@
+# -------------------- CORE --------------------
+python-dotenv>=1.0.1
+tqdm>=4.66.0
+numpy>=1.26,<2.0
+
+# -------------------- FRONTEND --------------------
+streamlit>=1.32.0
+
+# -------------------- AUDIO DOWNLOAD --------------------
+yt-dlp>=2025.3.31
+
+# -------------------- TRANSCRIPTION --------------------
+transformers>=4.41.0
+torch>=2.2.0
+torchaudio>=2.2.0
+accelerate>=0.30.0
+librosa>=0.10.0
+safetensors>=0.4.0
+sentencepiece>=0.2.0
+faster-whisper>=1.1.0
+
+# -------------------- EMBEDDINGS --------------------
+sentence-transformers>=2.6.0
+
+# -------------------- VECTOR DATABASE --------------------
+faiss-cpu>=1.8.0
+
+# -------------------- RAG PIPELINE --------------------
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-text-splitters>=0.2.0
+
+# -------------------- OPTIONAL (LLM OPTIMIZATION) --------------------
+bitsandbytes>=0.43.0
+
+# -------------------- UTILITIES --------------------
+pydantic>=2.6.0
+loguru>=0.7.0
